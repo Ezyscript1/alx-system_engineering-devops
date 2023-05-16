@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type file -name \*.gif -printf "%f\n" | LC_ALL=C dort -f | rev | cut -b 5- | rev
